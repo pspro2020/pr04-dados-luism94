@@ -22,13 +22,13 @@ public class Main {
 			System.out.println("Error - Uno de los hilos ya estaba interrumpido");
 		}
 		//Muestro los resultados de los contadores
-		System.out.println("1: " + die.getCounter1() + " veces");
-		System.out.println("2: " + die.getCounter2() + " veces");
-		System.out.println("3: " + die.getCounter3() + " veces");
-		System.out.println("4: " + die.getCounter4() + " veces");
-		System.out.println("5: " + die.getCounter5() + " veces");
-		System.out.println("6: " + die.getCounter6() + " veces");
-		System.out.println(die.getCounter1() + die.getCounter2() + die.getCounter3() + die.getCounter4() + die.getCounter5() + die.getCounter6() + " tiradas");
+		System.out.println("Numero 1: " + die.getCounter1() + " veces");
+		System.out.println("Numero 2: " + die.getCounter2() + " veces");
+		System.out.println("Numero 3: " + die.getCounter3() + " veces");
+		System.out.println("Numero 4: " + die.getCounter4() + " veces");
+		System.out.println("Numero 5: " + die.getCounter5() + " veces");
+		System.out.println("Numero 6: " + die.getCounter6() + " veces");
+		System.out.printf("Total: %d + %d + %d + %d + %d + %d = %d veces", die.getCounter1(), die.getCounter2(), die.getCounter3(), die.getCounter4(), die.getCounter5(), die.getCounter6(), die.getCounter1() + die.getCounter2() + die.getCounter3() + die.getCounter4() + die.getCounter5() + die.getCounter6());
 	}
 
 }
